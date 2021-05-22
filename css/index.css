@@ -1,0 +1,29 @@
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 1px dotted orange;
+}
+
+.box label {
+    display: block;
+    line-height: 45px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.box .bottom {
+    margin-top: 5px;
+    display: flex;
+}
+.box .bottom label {
+    border: 1px dotted #9a9797;
+}
+.box .bottom input[type='button']{
+    background-color: #6a6afc;
+    cursor: pointer;
+    width: 80px;
+    line-height: 25px;
+    text-align: center;
+}
